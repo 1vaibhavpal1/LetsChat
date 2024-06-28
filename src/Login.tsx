@@ -89,7 +89,7 @@ function Login() {
                 { loginLoading ? <i className="fa-solid fa-spinner animate-spin"></i> : 'LOG IN' }
               </button>
             </form>
-            <p className='text-center'>New to ChatIt? <Link to='/' className='text-primary-blue hover:text-secondary-blue'>Register</Link></p>
+            <p className='text-center'>New to Let's Chat? <Link to='/' className='text-primary-blue hover:text-secondary-blue'>Register</Link></p>
           </div>
         </div>
       </div>

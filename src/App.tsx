@@ -98,7 +98,7 @@ function App() {
       <div className='grid grid-cols-2 items-center'>
         <div className="left flex flex-col items-center justify-center h-screen -translate-y-20">
           <img src={webchat} className='w-[500px]' />
-          <h2 className='text-[50px] font-bold'>ChatIt</h2>
+          <h2 className='text-[50px] font-bold'>Let's Chat</h2>
         </div>
         <div className="right flex justify-center items-center h-screen">
           <div className="card bg-white w-[550px] h-[600px] rounded-md p-10 flex flex-col justify-center gap-8 -translate-x-8">
