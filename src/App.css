@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Garet';
+  src: url('./assets/Garet-Book.woff') format('woff');
+}
+
+#root {
+  background-color: rgb(218, 218, 218);
+  margin: 0;
+}
+
+.right {
+  font-family: 'Garet';
+}
+
+.messagemain {
+  background-image: url('assets/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.selecteduser {
+  background-color: rgb(226, 225, 225);
+}
+
+.messages::-webkit-scrollbar {
+  display: none;
+}
+
+.messages {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.userlist::-webkit-scrollbar {
+  display: none;
+}
+
+.userlist {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  max-height: 
+}
+
+@keyframes bounce-slow {
+  0%, 30%, 100% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce-medium {
+  0%, 30%, 100% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce-fast {
+  0%, 30%,100% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2.5s infinite ease-in-out ;
+}
+
+.animate-bounce-medium {
+  animation: bounce-medium 2.5s infinite ease-in-out 0.13s;
+}
+
+.animate-bounce-fast {
+  animation: bounce-fast 2.5s infinite ease-in-out 0.36s;
+}
